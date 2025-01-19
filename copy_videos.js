@@ -5,9 +5,9 @@ const fse = require("fs-extra");
 
 // Update these paths based on your system
 // Define the path to your phone's storage (mapped drive or folder in your system)
-const PHONE_STORAGE_PATH = "D:\\desktop\\folder name";  // Change to your phone's storage path
+const PHONE_STORAGE_PATH = "G:\Snapchat 2024";  // Change to your phone's storage path
 // Define the destination folder where videos will be copied on your PC
-const DESTINATION_FOLDER = "D:\\videos\\copy videos";  // Change to your PC folder
+const DESTINATION_FOLDER = "E:\Phone Data\snapchat_2024";  // Change to your PC folder
 
 // Ensure the destination folder exists. If it doesn't, create it
 if (!fs.existsSync(DESTINATION_FOLDER)) {
