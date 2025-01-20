@@ -36,3 +36,38 @@
     transform: rotate(360deg);
   }
 }
+
+.alert {
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+  visibility: hidden;
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 1050;
+  width: 300px;
+}
+
+.alert.show {
+  opacity: 1;
+  visibility: visible;
+}
+
+.alert-success {
+  background-color: #28a745;
+  color: white;
+}
+
+.alert-danger {
+  background-color: #dc3545;
+  color: white;
+}
+
+.alert .btn-close {
+  color: white;
+  opacity: 0.5;
+}
+
+.alert .btn-close:hover {
+  opacity: 1;
+}
