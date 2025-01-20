@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/videos_photos_copy_phone_to_pc/static/css/main.a0c8a44c.css",
+    "main.js": "/videos_photos_copy_phone_to_pc/static/js/main.fcdc7211.js",
+    "static/js/488.9a8d18cb.chunk.js": "/videos_photos_copy_phone_to_pc/static/js/488.9a8d18cb.chunk.js",
+    "index.html": "/videos_photos_copy_phone_to_pc/index.html",
+    "main.a0c8a44c.css.map": "/videos_photos_copy_phone_to_pc/static/css/main.a0c8a44c.css.map",
+    "main.fcdc7211.js.map": "/videos_photos_copy_phone_to_pc/static/js/main.fcdc7211.js.map",
+    "488.9a8d18cb.chunk.js.map": "/videos_photos_copy_phone_to_pc/static/js/488.9a8d18cb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a0c8a44c.css",
+    "static/js/main.fcdc7211.js"
+  ]
+}
