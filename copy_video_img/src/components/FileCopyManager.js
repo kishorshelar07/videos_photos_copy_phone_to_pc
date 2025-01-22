@@ -19,7 +19,7 @@ const useFileCopyManager = () => {
     }
 
     try {
-      const response = await fetch("http://localhost:5000/files", {
+      const response = await fetch("https://videos-photos-copy-phone-to-pc.onrender.com/files", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ sourcePath }),
@@ -67,7 +67,7 @@ const useFileCopyManager = () => {
     setCopying(true);
 
     const newEventSource = new EventSource(
-      `http://localhost:5000/copy?sourcePath=${encodeURIComponent(sourcePath)}&destinationPath=${encodeURIComponent(destinationPath)}`
+      `https://videos-photos-copy-phone-to-pc.onrender.com/copy?sourcePath=${encodeURIComponent(sourcePath)}&destinationPath=${encodeURIComponent(destinationPath)}`
     );
 
     newEventSource.onmessage = (event) => {
@@ -91,7 +91,7 @@ const useFileCopyManager = () => {
 
   const stopCopying = async () => {
     try {
-      const response = await fetch("http://localhost:5000/stop-copy", {
+      const response = await fetch("https://videos-photos-copy-phone-to-pc.onrender.com/stop-copy", {
         method: "POST",
       });
       const data = await response.json();
